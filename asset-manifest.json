@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/callenge-aerolab/static/css/main.4946e2cb.chunk.css",
+    "main.js": "/callenge-aerolab/static/js/main.1c4490dc.chunk.js",
+    "main.js.map": "/callenge-aerolab/static/js/main.1c4490dc.chunk.js.map",
+    "runtime-main.js": "/callenge-aerolab/static/js/runtime-main.24c53ada.js",
+    "runtime-main.js.map": "/callenge-aerolab/static/js/runtime-main.24c53ada.js.map",
+    "static/js/2.7e894273.chunk.js": "/callenge-aerolab/static/js/2.7e894273.chunk.js",
+    "static/js/2.7e894273.chunk.js.map": "/callenge-aerolab/static/js/2.7e894273.chunk.js.map",
+    "index.html": "/callenge-aerolab/index.html",
+    "static/css/main.4946e2cb.chunk.css.map": "/callenge-aerolab/static/css/main.4946e2cb.chunk.css.map",
+    "static/js/2.7e894273.chunk.js.LICENSE.txt": "/callenge-aerolab/static/js/2.7e894273.chunk.js.LICENSE.txt",
+    "static/media/aerolab-logo.0a8fb170.svg": "/callenge-aerolab/static/media/aerolab-logo.0a8fb170.svg",
+    "static/media/arrow-left.e6eb9be1.svg": "/callenge-aerolab/static/media/arrow-left.e6eb9be1.svg",
+    "static/media/arrow-right.3306c112.svg": "/callenge-aerolab/static/media/arrow-right.3306c112.svg",
+    "static/media/index.scss": "/callenge-aerolab/static/media/header-x1.b6f067c6.png",
+    "static/media/coin.b8bc711d.svg": "/callenge-aerolab/static/media/coin.b8bc711d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.24c53ada.js",
+    "static/js/2.7e894273.chunk.js",
+    "static/css/main.4946e2cb.chunk.css",
+    "static/js/main.1c4490dc.chunk.js"
+  ]
+}
