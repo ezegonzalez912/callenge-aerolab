@@ -8,9 +8,9 @@ export const AppRouter = () => {
         <Router>
             <Navbar />
             <Switch>
-                <Route exact path="challenge-aerolab/user" component={UserScreen}/>
-                <Route exact path="challenge-aerolab/" component={HomeScreen}/>
-                <Redirect to="challenge-aerolab/"/>
+                <Route exact path="/user" component={UserScreen}/>
+                <Route exact path="/" component={HomeScreen}/>
+                <Redirect to="/"/>
             </Switch>
         </Router>
     )
