@@ -1,0 +1,76 @@
+@use "../settings" as s;
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+
+    img{
+      cursor: pointer;
+      transition: .2s;
+
+      &:hover{
+        transform: scale(1.1)
+      }
+    }
+
+    &__section{
+      display: flex;
+      gap: 20px;
+      
+      &__user{
+        font-weight: 500;
+        font-size:24px;
+        color: s.$grey-primary;
+        letter-spacing:-0.15px;
+        line-height: 50px;
+        cursor: pointer;
+        padding: 0 15px;
+
+        &:hover{
+          background: s.$color-primary;
+          color: white;
+          border-radius: 50px;
+        }
+      }
+
+      &__points{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: s.$grey-secondary;
+        border-radius: 100px;
+        padding: 0 15px;
+        gap: 5px;
+        cursor: pointer;
+        transition: background .2s linear;
+
+        p{
+            font-weight: 500;
+            font-size:24px;
+            color:#616161;
+            letter-spacing:-0.15px;
+            line-height: 50px;
+        }
+
+        &:hover{
+          background: darken($color: s.$grey-secondary, $amount: 3);
+        }
+      }
+    }
+}
+
+@media (max-width: 400px) {
+  .navbar{
+    padding: 10px 20px;
+
+    &__section{
+      gap: 10px;
+      
+      &__user{
+        font-size: 20px;
+        line-height: 50px;
+      }
+    }
+  }
+}

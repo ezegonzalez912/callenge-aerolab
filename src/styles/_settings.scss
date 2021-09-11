@@ -1,0 +1,11 @@
+$color-primary: #0ad4fa;
+$grey-primary: #616161;
+$grey-secondary: #ededed;
+$grey-alternative: #a3a3a3;
+
+@mixin center($direction) {
+    align-items: center;
+    display: flex;
+    flex-direction: $direction;
+    justify-content: center;
+}
