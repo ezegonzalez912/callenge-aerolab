@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/callenge-aerolab/static/css/main.4946e2cb.chunk.css",
-    "main.js": "/callenge-aerolab/static/js/main.d473cb65.chunk.js",
-    "main.js.map": "/callenge-aerolab/static/js/main.d473cb65.chunk.js.map",
+    "main.js": "/callenge-aerolab/static/js/main.1c4490dc.chunk.js",
+    "main.js.map": "/callenge-aerolab/static/js/main.1c4490dc.chunk.js.map",
     "runtime-main.js": "/callenge-aerolab/static/js/runtime-main.24c53ada.js",
     "runtime-main.js.map": "/callenge-aerolab/static/js/runtime-main.24c53ada.js.map",
     "static/js/2.7e894273.chunk.js": "/callenge-aerolab/static/js/2.7e894273.chunk.js",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.24c53ada.js",
     "static/js/2.7e894273.chunk.js",
     "static/css/main.4946e2cb.chunk.css",
-    "static/js/main.d473cb65.chunk.js"
+    "static/js/main.1c4490dc.chunk.js"
   ]
 }
