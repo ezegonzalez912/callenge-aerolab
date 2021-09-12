@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/challenge-aerolab/static/css/main.a49b45e0.chunk.css",
-    "main.js": "/challenge-aerolab/static/js/main.1c4490dc.chunk.js",
-    "main.js.map": "/challenge-aerolab/static/js/main.1c4490dc.chunk.js.map",
+    "main.js": "/challenge-aerolab/static/js/main.d34b5ff0.chunk.js",
+    "main.js.map": "/challenge-aerolab/static/js/main.d34b5ff0.chunk.js.map",
     "runtime-main.js": "/challenge-aerolab/static/js/runtime-main.3edcb4c0.js",
     "runtime-main.js.map": "/challenge-aerolab/static/js/runtime-main.3edcb4c0.js.map",
-    "static/js/2.7e894273.chunk.js": "/challenge-aerolab/static/js/2.7e894273.chunk.js",
-    "static/js/2.7e894273.chunk.js.map": "/challenge-aerolab/static/js/2.7e894273.chunk.js.map",
+    "static/js/2.6558b48f.chunk.js": "/challenge-aerolab/static/js/2.6558b48f.chunk.js",
+    "static/js/2.6558b48f.chunk.js.map": "/challenge-aerolab/static/js/2.6558b48f.chunk.js.map",
     "index.html": "/challenge-aerolab/index.html",
     "static/css/main.a49b45e0.chunk.css.map": "/challenge-aerolab/static/css/main.a49b45e0.chunk.css.map",
-    "static/js/2.7e894273.chunk.js.LICENSE.txt": "/challenge-aerolab/static/js/2.7e894273.chunk.js.LICENSE.txt",
+    "static/js/2.6558b48f.chunk.js.LICENSE.txt": "/challenge-aerolab/static/js/2.6558b48f.chunk.js.LICENSE.txt",
     "static/media/aerolab-logo.0a8fb170.svg": "/challenge-aerolab/static/media/aerolab-logo.0a8fb170.svg",
     "static/media/arrow-left.e6eb9be1.svg": "/challenge-aerolab/static/media/arrow-left.e6eb9be1.svg",
     "static/media/arrow-right.3306c112.svg": "/challenge-aerolab/static/media/arrow-right.3306c112.svg",
@@ -18,8 +18,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.3edcb4c0.js",
-    "static/js/2.7e894273.chunk.js",
+    "static/js/2.6558b48f.chunk.js",
     "static/css/main.a49b45e0.chunk.css",
-    "static/js/main.1c4490dc.chunk.js"
+    "static/js/main.d34b5ff0.chunk.js"
   ]
 }
