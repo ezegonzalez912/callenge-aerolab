@@ -16,7 +16,7 @@ export const ProductSection = () => {
 
     const [filtered, setFiltered] = useState<string>(typesFilter.mostRecent)
 
-    const [ productsOrder, setProductsOrder ] = useState<Product[]>([])
+    const [productsOrder, setProductsOrder] = useState<Product[]>([])
     
     useEffect(() => {
         setProductsOrder(productsSearch);

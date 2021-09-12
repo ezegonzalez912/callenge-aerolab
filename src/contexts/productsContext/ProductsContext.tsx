@@ -7,14 +7,18 @@ interface ContextProps {
     laodProducts: Boolean;
 }
 
+interface Props {
+    children: JSX.Element
+}
+
 export const ProductsContext = createContext({} as ContextProps);
 
-export const ProdcutsProvider: React.FC = ({children}) => {
+export const ProdcutsProvider: React.FC<Props> = ({children}) => {
 
     const [products, setProducts] = useState<Product[]>([])
     const [laodProducts, setLaodProducts] = useState<Boolean>(false)
 
-    const getAllProduts = () => {
+    const getAllProduts = ():void => {
         try{
             getProduts.then( response => {
                 const products = response.data;

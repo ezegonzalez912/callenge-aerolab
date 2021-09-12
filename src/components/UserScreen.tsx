@@ -30,7 +30,7 @@ export const UserScreen = () => {
             <div className="history__grid">
                 {
                     products !== undefined ?
-                    productsFiltered.reverse().map( (product, index) => (
+                    productsFiltered.reverse().map( (product: Product, index: number) => (
                         <ProductHistoryItem key={index} product={product}/>
                     ))
                     : <p>Not products</p>

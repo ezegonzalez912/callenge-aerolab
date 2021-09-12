@@ -14,11 +14,11 @@ interface Props {
     productsFiltered: Product[];
 }
 
-export const ProdcutNav: React.FC<Props> = ({setFiltered, products, filtered, currentPage, prevPage, nextPage, productsFiltered}) => {
+export const ProdcutNav: React.FC<Props> = ({setFiltered, filtered, productsFiltered, products, currentPage, prevPage, nextPage}) => {
 
     const {lowerPrice, higherPrice, mostRecent} = typesFilter;
 
-    const [menu, setMenu] = useState(false)
+    const [menu, setMenu] = useState<Boolean>(false)
 
     const mostRecentProducts = ():void => {
         setFiltered(mostRecent)
@@ -35,7 +35,7 @@ export const ProdcutNav: React.FC<Props> = ({setFiltered, products, filtered, cu
         setMenu(false)
     }
 
-    const numberProducts = () => {
+    const numberProducts = ():number => {
         if(productsFiltered.length === 0){
             return 0
         }
@@ -61,10 +61,10 @@ export const ProdcutNav: React.FC<Props> = ({setFiltered, products, filtered, cu
                 <hr />
                 <div className="products-nav__left__controls">
                     <p onClick={() => setMenu(!menu)} className="products-nav__left__controls__menu">Sort by:</p>
-                    <div className={`products-nav__left__controls__grid ${menu ? "products-nav__left__controls__grid-active" : ""}`}>
-                        <button className={filtered === mostRecent ? "active" : ""} onClick={mostRecentProducts}>Most recent</button>
-                        <button className={filtered === lowerPrice ? "active" : ""} onClick={lowerPriceProducts}>Lower price</button>
-                        <button className={filtered === higherPrice ? "active" : ""} onClick={higherPriceProducts}>Highest price</button>
+                    <div className={`products-nav__left__controls__grid ${menu ? "products-nav__left__controls__grid-active" : undefined}`}>
+                        <button className={filtered === mostRecent ? "active" : undefined} onClick={mostRecentProducts}>Most recent</button>
+                        <button className={filtered === lowerPrice ? "active" : undefined} onClick={lowerPriceProducts}>Lower price</button>
+                        <button className={filtered === higherPrice ? "active" : undefined} onClick={higherPriceProducts}>Highest price</button>
                     </div>
                 </div>
             </div>

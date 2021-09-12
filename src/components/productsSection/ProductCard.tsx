@@ -22,7 +22,7 @@ export const ProductCard:React.FC<Props> = ({product}) => {
         }
     }, [user, product])
 
-    const claimProdut = (product: Product) => {
+    const claimProdut = (product: Product):void => {
         setProcess(false)
         claimProduts(product._id)?.then(() => {
             setUser({...user, points: user.points - product.cost, redeemHistory: [...user.redeemHistory, product]})
@@ -41,7 +41,7 @@ export const ProductCard:React.FC<Props> = ({product}) => {
                         <h1>{product.cost}</h1>
                         <img src={coinSVG} alt="coin"/>
                     </div>
-                    <button onClick={() => claimProdut(product)} disabled={!process} style={{cursor: process ? undefined: "default"}}>
+                    <button onClick={() => claimProdut(product)} disabled={!process} style={{cursor: process ? undefined : "default"}}>
                         {
                             process ?
                             "Redeen now"

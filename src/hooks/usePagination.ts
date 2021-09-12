@@ -2,8 +2,8 @@ import { useEffect, useState } from "react"
 
 export const usePagination = <T> (initState: T[]) => {
 
-    const [ productsFiltered, setProductsFiltered ] = useState(initState)
-    const [ currentPage, setCurrentPage ] = useState(0)
+    const [ productsFiltered, setProductsFiltered ] = useState<T[]>(initState)
+    const [ currentPage, setCurrentPage ] = useState<number>(0)
 
     const nextPage = ():void => {
         if(initState.length > currentPage + 16){
